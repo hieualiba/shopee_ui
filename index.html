@@ -1,0 +1,1734 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopee</title>
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="./fontawesome-free-6.1.2-web/css/all.min.css">
+
+</head>
+
+<body>
+    <div class="app">
+        <div class="header">
+            <div class="grid grid_tablet">
+
+                <!-- header navbar -->
+                <nav class="header__navbar hide-on-mobile-tablet">
+                    <ul class="navbar-list">
+                        <li class="navbar-item">
+                            <a class="navbar-link navbar-separate" href="">Kênh người bán</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a class="navbar-link navbar-separate" href="">Trở thành Người bán Shopee</a>
+                        </li>
+                        <li class="navbar-item navbar-separate open-QR-code">
+                            Tải ứng dụng
+                            <div class="header-QR notify_index notify-animation">
+                                <img src="./img/QR code/QR_code.png" alt="QR code" class="header-QR-img">
+                                <div class="header-QR-apps">
+                                    <img src="./img/QR code/appStore.png" alt="AppStore" class="QR-app">
+                                    <img src="./img/QR code/googlePlay.png" alt="Google Play" class="QR-app pull-right">
+                                    <img src="./img/QR code/AppGallery.png" alt="AppGallery" class="QR-app">
+                                </div>
+                            </div>
+                        </li>
+                        <li class="navbar-item no-pointed">
+                            Kết nối
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                        </li>
+                    </ul>
+
+                    <ul class="navbar-list">
+                        <li class="navbar-item open-header-notify">
+                                <a class="navbar-link" href="">
+                                    <i class="navbar-icon ti-bell"></i>                                                      
+                                    Thông báo
+                                </a>
+                                <div class="header-notify flex_row notify_index">
+                                    <div class="header-notify-content flex_row">
+                                        <img src="./img/notify/notify_clear/notify_clear.png" alt="" class="notify_clear-img">
+                                        <p class="notify-desc">Đăng nhập để xem Thông báo</p>
+                                    </div>
+                                    <div class="notify-login-buttons">
+                                        <div class="notify-login-btn flex_row">
+                                            <a href="" class="notify-login-link">Đăng ký</a>
+                                        </div>
+                                        <div class="notify-login-btn flex_row">
+                                            <a href="" class="notify-login-link">Đăng nhập</a>
+                                        </div>
+                                    </div>
+                                </div>
+                        </li>
+                        <li class="navbar-item">
+                                <a class="navbar-link" href="">
+                                    <i class="navbar-icon ti-help-alt"></i>                                                                                     
+                                    Hỗ trợ
+                                </a>
+                        </li>
+                        <li class="navbar-item">
+                                <i class="navbar-icon ti-world"></i>                       
+                                Tiếng Việt
+                                <i class="navbar-icon ti-angle-down"></i>
+                                <div class="header-languages notify_index">
+                                    <div class="language">
+                                        <a href="" class="language-link">Tiếng Việt</a>
+                                    </div>
+
+                                    <div class="language">
+                                        <a href="" class="language-link">English</a>
+                                    </div>
+                                </div>
+                        </li>
+                        <li class="navbar-item">
+                            <a class="navbar-link navbar-separate" href="">Đăng ký</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a class="navbar-link" href="">Đăng nhập</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                
+
+                <!-- header function -->
+                <div class="header-func">
+                    <a href="" class="header-logo hide-on-mobile">
+                        <img src="./img/logo/shopee_header.PNG" alt="Shopee logo" class="shopee-logo">
+                    </a>
+                    
+                    <!-- mobile nav-->
+                    <label for="nav-mobile-input" class="mobile-menu-btn">
+                        <i class="mobile-menu-btn__icon ti-menu"></i>
+                    </label>
+
+                    <input type="checkbox" class="nav-mobile__input" name="" id="nav-mobile-input">
+
+                    <label for="nav-mobile-input" class="nav-mobile__overlay"></label>
+
+                    <nav class="nav-mobile">
+                        <label for="nav-mobile-input" class="nav-mobile__close-btn">
+                            <i class="nav-mobile__close-icon ti-close"></i>
+                        </label>
+                        <img src="./img/avt/avatar.jpg" alt="" class="nav-mobile__img">
+                        
+                        <ul class="nav-mobile__list">
+                            <li class="nav-mobile__link">
+                                <i class="nav-mobile__icon ti-check"></i>
+                                Đăng ký
+                            </li>
+                            <li class="nav-mobile__link">
+                                <i class="nav-mobile__icon ti-check"></i>
+                                Đăng nhập
+                            </li>
+                            <li class="nav-mobile__link">
+                                <i class="nav-mobile__icon ti-check"></i>
+                                Tải ứng dụng
+                            </li>
+                            <li class="nav-mobile__link">
+                                <i class="nav-mobile__icon ti-check"></i>
+                                Kênh người bán
+                            </li>
+                            <li class="nav-mobile__link">
+                                <i class="nav-mobile__icon ti-check"></i>
+                                Thông báo
+                            </li>
+                            <li class="nav-mobile__link">
+                                <i class="nav-mobile__icon ti-check"></i>
+                                Ngôn ngữ
+                            </li>
+                            <li class="nav-mobile__link">
+                                <i class="nav-mobile__icon ti-check"></i>
+                                Trợ giúp
+                            </li>
+                        </ul>
+                    </nav>
+
+                    <!-- header search -->
+                    <div class="header-search">
+                        <div class="search-place">
+                            <input type="text" class="search-input" placeholder="Shopee Premium Siêu Hàng Hiệu">
+                            <div class="search-history">
+                                <ul class="search-history-list">
+                                    <li class="search-history-section">
+                                        <a href="" class="search-history-link">
+                                            BITI'S MUA LÀ CÓ QUÀ
+                                            <img src="./img/header_search_history/search_history.png" alt="" class="search-history-img">
+                                        </a>
+                                    </li>
+                                    <li class="search-history-section">
+                                        <a href="" class="search-history-link">
+                                            ốp điện thoại xì ke
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="search-button">
+                                <i class="search-icon ti-search"></i>
+                            </div>
+                        </div>
+                        <div class="words-recommend hide-on-mobile-tablet">
+                            <a class="word-rec" href="">Dép</a>
+                            <a class="word-rec" href="">Áo Phông</a>
+                            <a class="word-rec" href="">Áo Khoác</a>
+                            <a class="word-rec" href="">Balo</a>
+                            <a class="word-rec" href="">Dép Nữ</a>
+                            <a class="word-rec" href="">túi Xách Nữ</a>
+                            <a class="word-rec" href="">Áo Croptop</a>
+                            <a class="word-rec" href="">Váy</a>
+                        </div>
+
+                    </div>
+
+                    <div class="header-cart">
+                        <a href="" class="go-to-cart">
+                            <i class="cart-icon ti-shopping-cart"></i>
+                        </a>
+                        <div class="header-cart-place flex_row">
+                            <img src="./img/header_cart/header_cart_empty.png" alt="" class="cart-empty-img">
+                            <p class="cart-empty-desc">Chưa Có Sản Phẩm</p>
+                        </div>
+                    </div>
+                </div>
+
+                
+            </div>
+        </div> <!-- end home header -->
+
+
+        <!-- home body -->
+        <div class="home-body">
+            <!-- full home banner -->
+            <div class="full-home-banners">
+                <div class="grid grid_tablet">
+                    
+                    <div class="home-banners">
+                        <div class="grid__row-m-2_5">
+                            <div class="grid__col-8-p-2_5">
+                                <div class="home-banner-main">
+                                    <div class="home-banner-main__box">
+                                        <a href="" class="home-banner-main__link">
+                                            <div class="home-banner-main__img mySlides fade" style="background-image: url('https://cf.shopee.vn/file/a73e6a4beb337d0aebf6d566ca46e630_xxhdpi');">
+                                            </div>
+                                        </a>
+                                        <a href="" class="home-banner-main__link">
+                                            <div class="home-banner-main__img mySlides fade" style="background-image: url('https://cf.shopee.vn/file/5b5de1582d99cbbe75a8f9a5c4dae1c2_xxhdpi');">
+                                            </div>
+                                        </a>
+                                        <a href="" class="home-banner-main__link">
+                                            <div class="home-banner-main__img mySlides fade" style="background-image: url('https://cf.shopee.vn/file/5b8231ada25a0d6fe4ef77323c56b6b5_xxhdpi');">
+                                            </div>
+                                        </a>
+    
+                                        <div class="banner-dots" style="text-align:center">
+                                            <span class="dot" onclick="currentSlide(1)"></span> 
+                                            <span class="dot" onclick="currentSlide(2)"></span> 
+                                            <span class="dot" onclick="currentSlide(3)"></span> 
+                                        </div>
+                                    </div>
+                                    <div class="banner-next-btn__box">
+                                        <a class="prev" onclick="plusSlides(-1)">
+                                            <div class="banner-next-btn">
+                                                <i class="banner-next-icon ti-angle-left"></i>
+                                            </div>
+                                        </a>
+                                        <a class="prev" onclick="plusSlides(1)">
+                                            <div class="banner-next-btn">
+                                                <i class="banner-next-icon ti-angle-right"></i>
+                                            </div>
+                                        </a>
+    
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="grid__col-4-p2_5 hide-on-mobile">
+                                <div class="home-banner-right">
+                                    <a href="" class="extra-section">
+                                        <div style="background-image: url('https://cf.shopee.vn/file/21f8f11b087f47b95e60eba44e4866f5_xhdpi');" class="home-banner-right-child">
+                                        </div>
+                                    </a>
+                                    <a href="" class="extra-section">
+                                        <div style="background-image: url('https://cf.shopee.vn/file/534b7becdb66ef451c56ec9b6132c831_xhdpi');" class="home-banner-right-child">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--BEGIN HOME OPTIONS -->
+                    <div class="home-options-rec">
+                        <a href="" class="home-option-link hover-options-animation">
+                            <div class="home-option">
+                                <div class="home-option-box">
+                                    <img src="./img/full_home_options/home_options/khung_gio_san_sale.gif" alt="" class="home-option-img">
+                                    <p class="home-option-desc">Khung Giờ Săn Sale</p>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="" class="home-option-link hover-options-animation">
+                            <div class="home-option">
+                                <div class="home-option-box">
+                                    <img src="./img/full_home_options/home_options/gì cũng rẻ.png" alt="" class="home-option-img">
+                                    <p class="home-option-desc">Gì Cũng Rẻ - Mua Là Freeship</p>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="" class="home-option-link hover-options-animation">
+                            <div class="home-option">
+                                <div class="home-option-box">
+                                    <img src="./img/full_home_options/home_options/freeship_extra.png" alt="" class="home-option-img">
+                                    <p class="home-option-desc">Miễn Phí Vận Chuyển</p>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="" class="home-option-link hover-options-animation">
+                            <div class="home-option">
+                                <div class="home-option-box">
+                                    <img src="./img/full_home_options/home_options/bat_trend.png" alt="" class="home-option-img">
+                                    <p class="home-option-desc">Bắt Trend - Giá Sốc</p>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="" class="home-option-link hover-options-animation">
+                            <div class="home-option">
+                                <div class="home-option-box">
+                                    <img src="./img/full_home_options/home_options/hoan_xu.png" alt="" class="home-option-img">
+                                    <p class="home-option-desc">Hoàn Xu 10% - Lên Đến 200K</p>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="" class="home-option-link hover-options-animation">
+                            <div class="home-option">
+                                <div class="home-option-box">
+                                    <img src="./img/full_home_options/home_options/hang_hieu_gia_tot.png" alt="" class="home-option-img">
+                                    <p class="home-option-desc">Hàng Hiệu Giá Tốt</p>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="" class="home-option-link hover-options-animation">
+                            <div class="home-option">
+                                <div class="home-option-box">
+                                    <img src="./img/full_home_options/home_options/hang_quoc_te.png" alt="" class="home-option-img">
+                                    <p class="home-option-desc">Hàng Quốc Tế - Giao Thần Tốc</p>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="" class="home-option-link hover-options-animation">
+                            <div class="home-option">
+                                <div class="home-option-box">
+                                    <img src="./img/full_home_options/home_options/nap_the.png" alt="" class="home-option-img">
+                                    <p class="home-option-desc">Nạp Thẻ, Hóa Đơn & Phim</p>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="" class="home-option-link hover-options-animation">
+                            <div class="home-option">
+                                <div class="home-option-box">
+                                    <img src="./img/full_home_options/home_options/1k.png" alt="" class="home-option-img">
+                                    <p class="home-option-desc">Deal Sốc Từ 1K</p>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="" class="home-option-link hover-options-animation">
+                            <div class="home-option">
+                                <div class="home-option-box">
+                                    <img src="./img/full_home_options/home_options/so_gi_day.png" alt="" class="home-option-img">
+                                    <p class="home-option-desc">Chọn 6 Số Trúng Tiền Triệu</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- end home options -->
+
+                </div>
+            </div>
+            <!-- end full home banners -->
+
+            <!-- Begin container -->
+            <div class="home-content">
+                <div class="grid grid_tablet">
+                    <div class="home-container">
+                        <a href="" class="first-order-link">
+                            <img src="https://cf.shopee.vn/file/8b1b9a41c88b507c1c78f7a36efad984" alt="" class="first-oder-img">
+                        </a>
+                        <!-- home category -->
+                        <div class="container-category">
+        
+                        </div>
+                        <!-- home flash sale -->
+                        <div class="home-flashsale">
+    
+                        </div>
+    
+                        <!-- home banner 3 -->
+                        <div class="home-banner-3">
+                            <img src="./img/banner_3/banner_3.png" alt="" class="banner-3-img">
+                            <div class="banner-3-linkbox">
+                                <a href="" class="banner-3-link"></a>
+                                <a href="" class="banner-3-link"></a>
+                                <a href="" class="banner-3-link"></a>
+                            </div>
+                        </div>
+    
+                        <!-- home mall section -->
+                        <div class="home-mall-section">
+                            <div class="home-mall-section__header">
+                                <div class="home-mall-section__header-content">
+                                    <a class="home-mall-section__header-mall-link">SHOPEE MALL</a>
+                                    <div class="home-mall-section__header-desc hide-on-mobile header-desc-box1">
+                                        <img src="./img/home_mall_icon/7_ngay_tra_hang.png" alt="" class="home-mall-section__header-desc-icon">
+                                        7 Ngày Miễn Phí Trả Hàng
+                                    </div>
+                                    <div class="home-mall-section__header-desc hide-on-mobile">
+                                        <img src="./img/home_mall_icon/hang_chinh_hang_100%.png" alt="" class="home-mall-section__header-desc-icon">
+                                        Hàng Chính Hãng 100%
+                                    </div>
+                                    <div class="home-mall-section__header-desc hide-on-mobile">
+                                        <img src="./img/home_mall_icon/mien_phi_van_chuyen.png" alt="" class="home-mall-section__header-desc-icon">
+                                        Miễn Phí Vận Chuyển
+                                    </div>
+                                </div>
+                                <button class="home-mall-section__header-btn flex_row">
+                                    <span>Xem Tất Cả</span>
+                                    <div class="home-mall-section__header-btn-icon-box flex_row">
+                                        <i class="home-mall-section__header-btn-icon ti-angle-right"></i>
+                                    </div>
+                                </button>
+                            </div>
+                            <div class="grid__row-m0">
+                                <div class="grid__col-4-p10-mall m-6 c-12">
+                                    <!-- home mall slides -->
+                                    <div class="home-mall-section__slides flex_row">
+                                        <div class="home-mall-section__slides-box">
+                                            <a href="" class="home-mall-section__slides-link">
+                                                <div class="home-mall-section__slide mySlides-2 fade" style="background-image: url('https://cf.shopee.vn/file/7a04392be6eda9be9f997c37549b3a77');">
+                                                </div>
+                                            </a>
+                                            <a href="" class="home-mall-section__slides-link">
+                                                <div class="home-mall-section__slide mySlides-2 fade" style="background-image: url('https://cf.shopee.vn/file/90b9919602ded9ef03f1fd39ff7dbfe1');">
+                                                </div>
+                                            </a>
+                                            <a href="" class="home-mall-section__slides-link">
+                                                <div class="home-mall-section__slide mySlides-2 fade" style="background-image: url('https://cf.shopee.vn/file/2fff600ff3cdb2166f1d1d93628d7064');">
+                                                </div>
+                                            </a>
+                                            <div class="banner-dots" style="text-align:center">
+                                                <span class="dot dot2" onclick="currentSlide(1)"></span> 
+                                                <span class="dot dot2" onclick="currentSlide(2)"></span> 
+                                                <span class="dot dot2" onclick="currentSlide(3)"></span> 
+                                            </div>
+                                        </div>
+    
+
+                                        <div class="mall-slides-next-btn__box">
+                                            <a class="prev" onclick="plusSlides(-1)">
+                                                <div class="mall-slides-next-btn">
+                                                    <i class="mall-slides-next-btn-icon ti-angle-left"></i>
+                                                </div>
+                                            </a>
+                                            <a class="prev" onclick="plusSlides(1)">
+                                                <div class="mall-slides-next-btn">
+                                                    <i class="mall-slides-next-btn-icon ti-angle-right"></i>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="grid__col-8-p-0-mall m-6 c-12">
+                                    <div class="home-mall-section__item-list">
+                                        <div class="grid__row-m0">
+                                            <div class="grid__col-2-p10-mall m-6 c-6">
+                                                <a href="" class="home-mall-section__item-link">
+                                                    <div class="home-mall-section__item" style = "background-image: url('https://cf.shopee.vn/file/472c188801878addc1bd969612435904_xhdpi');" >
+                                                        <div class="home-mall-section__item-content">
+                                                            Mua 1 tặng 4
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="grid__col-2-p10-mall m-6 c-6">
+                                                <a href="" class="home-mall-section__item-link">
+                                                    <div class="home-mall-section__item" style = "background-image: url('https://cf.shopee.vn/file/06bf46cbc24a74d1293aca5d7972f9a3_xhdpi');" >
+                                                        <div class="home-mall-section__item-content">
+                                                            Mua deal xịn nhận quà xinh
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="grid__col-2-p10-mall m-6 c-6">
+                                                <a href="" class="home-mall-section__item-link">
+                                                    <div class="home-mall-section__item" style = "background-image: url('https://cf.shopee.vn/file/85ac40e84c443abdfe0f01d262a29e27_xhdpi');" >
+                                                        <div class="home-mall-section__item-content">
+                                                            Vua bếp Tefal
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="grid__col-2-p10-mall m-6 c-6">
+                                                <a href="" class="home-mall-section__item-link">
+                                                    <div class="home-mall-section__item" style = "background-image: url('https://cf.shopee.vn/file/232f7fb1db434de344f86fb950fdef2a_xhdpi');" >
+                                                        <div class="home-mall-section__item-content">
+                                                            Siêu sale sinh nhật
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="grid__col-2-p10-mall m-6 hide-on-mobile-tablet">
+                                                <a href="" class="home-mall-section__item-link">
+                                                    <div class="home-mall-section__item" style = "background-image: url('https://cf.shopee.vn/file/f55ceb09278c7276f4c7bfbd13507556_xhdpi');" >
+                                                        <div class="home-mall-section__item-content">
+                                                            Giảm đến 50%
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="grid__col-2-p10-mall m-6 hide-on-mobile-tablet">
+                                                <a href="" class="home-mall-section__item-link">
+                                                    <div class="home-mall-section__item" style = "background-image: url('https://cf.shopee.vn/file/95bd3a0bbc0c514c663248c36cd0a992_xhdpi');" >
+                                                        <div class="home-mall-section__item-content">
+                                                            Giảm đến 50%
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="grid__col-2-p10-mall m-6 hide-on-mobile-tablet">
+                                                <a href="" class="home-mall-section__item-link">
+                                                    <div class="home-mall-section__item" style = "background-image: url('https://cf.shopee.vn/file/8cbfd9a27f98b5220063b2aba6b061e6_xhdpi');" >
+                                                        <div class="home-mall-section__item-content">
+                                                            Mua 1 tặng 1+
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="grid__col-2-p10-mall m-6 hide-on-mobile-tablet">
+                                                <a href="" class="home-mall-section__item-link">
+                                                    <div class="home-mall-section__item" style = "background-image: url('https://cf.shopee.vn/file/65c5851b4c78e19aaac2fa31fed07d76_xhdpi');" >
+                                                        <div class="home-mall-section__item-content">
+                                                            Mua là có quà
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <!-- home trending search list -->
+                        <div class="home-trending">
+                            <div class="trending-heading-box">
+                                <h2 class="trending-search-heading">XU HƯỚNG TÌM KIẾM</h2>
+                                <button class="trending-refresh-btn">
+                                    <i class="trending-refresh-icon ti-reload"></i>
+                                    Xem Thêm
+                                </button>
+                            </div>
+                            <div class="trending-search-list">
+                                <a href="" class="trending-search-link">
+                                    <div class="trending-search-box">
+                                        <div class="treding-search-content">
+                                            <h3 class="trending-section-heading">Dép</h3>
+                                            4k+ sản phẩm
+                                        </div>
+                                        <div class="trending-search-img" style="background-image: url(https://cf.shopee.vn/file/fab4672f310d15df2643daed819f4023)"></div>
+                                    </div>
+                                </a>
+                                <a href="" class="trending-search-link">
+                                    <div class="trending-search-box">
+                                        <div class="treding-search-content">
+                                            <h3 class="trending-section-heading">Áo Khoác</h3>
+                                            5k+ sản phẩm
+                                        </div>
+                                        <div class="trending-search-img" style="background-image: url(https://cf.shopee.vn/file/4b2a0fe7fcd65ae0c82c7d998b3a8b6e)"></div>
+                                    </div>
+                                </a>
+                                <a href="" class="trending-search-link">
+                                    <div class="trending-search-box">
+                                        <div class="treding-search-content">
+                                            <h3 class="trending-section-heading">Áo Phông</h3>
+                                            7k+ sản phẩm
+                                        </div>
+                                        <div class="trending-search-img" style="background-image: url(https://cf.shopee.vn/file/2647ccf73db8f9c2597cf08c623c7865)"></div>
+                                    </div>
+                                </a>
+                                <a href="" class="trending-search-link">
+                                    <div class="trending-search-box">
+                                        <div class="treding-search-content">
+                                            <h3 class="trending-section-heading">Balo</h3>
+                                            5k+ sản phẩm
+                                        </div>
+                                        <div class="trending-search-img" style="background-image: url(https://cf.shopee.vn/file/ca656c60d0b2aac1fd5fed12d59e2128)"></div>
+                                    </div>
+                                </a>
+                                <a href="" class="trending-search-link">
+                                    <div class="trending-search-box">
+                                        <div class="treding-search-content">
+                                            <h3 class="trending-section-heading">Dép nữ</h3>
+                                            13k+ sản phẩm
+                                        </div>
+                                        <div class="trending-search-img" style="background-image: url(https://cf.shopee.vn/file/dc6edd7f5b33dd135e3b359dbc591ae6)"></div>
+                                    </div>
+                                </a>
+                            </div>
+                            
+                        </div>
+                        <!-- top searched -->
+                        <div class="home-top-searched">
+                            <div class="home-top-searched__heading-box">
+                                <h2 class="home-top-searched__heading">TÌM KIẾM HÀNG ĐẦU</h2>
+                                <button class="home-top-searched__heading-btn">
+                                    Xem Tất Cả
+                                    <i class="home-top-searched__heading-icon ti-angle-right"></i>
+                                </button>
+                            </div>
+                            <div class="home-top-searched__list">
+                                <div class="grid__row-m0">
+                                    <div class="grid__col-2-p10 m-4 c-6">
+                                        <a href="" class="home-top-searched__item-link">
+                                            <div class="home-top-searched__item">
+                                                <div class="home-top-searched__img-box">
+                                                    <img src="./img/top_search/quan_lot_nu.jpg" alt="" class="home-top-searched__img">
+                                                    <img src="./img/top_search/top_tag.PNG" alt="" class="home-top-searched__top-tag">
+                                                    <div class="home-top-searched__desc">
+                                                        Bán 152k+ / tháng
+                                                    </div>
+                                                </div>
+                                                <div class="home-top-searched__item-content">
+                                                    Quần Lót Nữ Cotton
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="grid__col-2-p10 m-4 c-6">
+                                        <a href="" class="home-top-searched__item-link">
+                                            <div class="home-top-searched__item">
+                                                <div class="home-top-searched__img-box">
+                                                    <img src="./img/top_search/gang_tay_choi_game.jpg" alt="" class="home-top-searched__img">
+                                                    <img src="./img/top_search/top_tag.PNG" alt="" class="home-top-searched__top-tag">
+                                                    <div class="home-top-searched__desc">
+                                                        Bán 56k+ / tháng
+                                                    </div>
+                                                </div>
+                                                <div class="home-top-searched__item-content">
+                                                    Găng Tay Chơi Game
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="grid__col-2-p10 m-4 c-6">
+                                        <a href="" class="home-top-searched__item-link">
+                                            <div class="home-top-searched__item">
+                                                <div class="home-top-searched__img-box">
+                                                    <img src="./img/top_search/ao_3_lo.jpg" alt="" class="home-top-searched__img">
+                                                    <img src="./img/top_search/top_tag.PNG" alt="" class="home-top-searched__top-tag">
+                                                    <div class="home-top-searched__desc">
+                                                        Bán 55k+ / tháng
+                                                    </div>
+                                                </div>
+                                                <div class="home-top-searched__item-content">
+                                                    Áo Ba Lỗ Trơn Croptop
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="grid__col-2-p10 m-4 c-6">
+                                        <a href="" class="home-top-searched__item-link">
+                                            <div class="home-top-searched__item">
+                                                <div class="home-top-searched__img-box">
+                                                    <img src="./img/top_search/quan_ong_rong_nu.jpg" alt="" class="home-top-searched__img">
+                                                    <img src="./img/top_search/top_tag.PNG" alt="" class="home-top-searched__top-tag">
+                                                    <div class="home-top-searched__desc">
+                                                        Bán 101k+ / tháng
+                                                    </div>
+                                                </div>
+                                                <div class="home-top-searched__item-content">
+                                                    Quần Ống Rộng Nữ
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="grid__col-2-p10 m-4 c-6">
+                                        <a href="" class="home-top-searched__item-link">
+                                            <div class="home-top-searched__item">
+                                                <div class="home-top-searched__img-box">
+                                                    <img src="./img/top_search/quan_lot_nam.jpg" alt="" class="home-top-searched__img">
+                                                    <img src="./img/top_search/top_tag.PNG" alt="" class="home-top-searched__top-tag">
+                                                    <div class="home-top-searched__desc">
+                                                        Bán 76k+ / tháng
+                                                    </div>
+                                                </div>
+                                                <div class="home-top-searched__item-content">
+                                                    Quần Lót Nam Co Dãn
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="grid__col-2-p10 m-4 c-6">
+                                        <a href="" class="home-top-searched__item-link">
+                                            <div class="home-top-searched__item">
+                                                <div class="home-top-searched__img-box">
+                                                    <img src="./img/top_search/quan_short_nam.jpg" alt="" class="home-top-searched__img">
+                                                    <img src="./img/top_search/top_tag.PNG" alt="" class="home-top-searched__top-tag">
+                                                    <div class="home-top-searched__desc">
+                                                        Bán 55k+ / tháng
+                                                    </div>
+                                                </div>
+                                                <div class="home-top-searched__item-content">
+                                                    Quần Short Nam
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- home products -->
+                        <div class="home-products">
+                            <nav class="home-products-header">
+                                <ul class="home-products-tabs-header">
+                                    <li class="home-products-tabs-header__tab">
+                                        <span>GỢI Ý HÔM NAY</span>
+                                    </li>
+                                    <li class="home-products-tabs-header__tab">
+                                        <img src="./img/home-products-header/home-products-header-img.png" alt="" class="tabs-header__img">
+                                    </li>
+                                </ul>
+                            </nav>
+                            <div class="grid__row-m0 home-products-list">
+                                <!-- product item -->
+                                <div class="grid__col-2 m-3 c-6">
+                                    <a href="" class="home-products-item__link">
+                                        <div class="home-products-item hover-options-animation">
+                                            <div class="home-products-item__img" style="background-image: url(https://cf.shopee.vn/file/1ed3a7f56da798f0a811ef022981c00e_tn)"></div>
+                                            <div class="home-products-item__content">
+                                                <h4 class="home-products-item__name">[Mã 258FASHIONSALE giảm 100% đơn 150K] Dép bánh mì độn đế nam nữ siêu nhẹ siêu êm quai hình Meckey thời thượng</h4>
+                                                <div class="home-products-item__voucher">
+                                                    <img src="./img/voucher/voucher_5k.PNG" alt="" class="home-products-item__voucher-img">
+                                                </div>
+                                                <div class="home-products-item__price">
+                                                    <span class="VND">₫</span>
+                                                    <span class="item-price">12.000</span>
+                                                    <span class="item-sale-quantity">Đã bán 68</span>
+                                                </div>
+                                            </div>
+                                            <div class="home-products-item__favourite">
+                                                <span>Yêu thích</span>
+                                            </div>
+                                            <div class="home-products-item__discount">
+                                                <span class="home-products-item__discount-percent">34%</span>
+                                                <span class="home-products-item__discount-desc">GIẢM</span>
+                                            </div>
+                                            <div class="home-products-item__shopee-tags">
+                                                <img src="./img/shopee_tags_under_img/shopee_tags.png" alt="" class="shopee-tags_img grid__full-width">
+                                            </div>
+                                            <a href="" class="home-products-item__hover-footer">
+                                                <div class="home-products-item__hover-footer-box">
+                                                    Tìm sản phẩm tương tự
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__col-2 m-3 c-6">
+                                    <a href="" class="home-products-item__link">
+                                        <div class="home-products-item hover-options-animation">
+                                            <div class="home-products-item__img" style="background-image: url(https://cf.shopee.vn/file/1ed3a7f56da798f0a811ef022981c00e_tn)"></div>
+                                            <div class="home-products-item__content">
+                                                <h4 class="home-products-item__name">[Mã 258FASHIONSALE giảm 100% đơn 150K] Dép bánh mì độn đế nam nữ siêu nhẹ siêu êm quai hình Meckey thời thượng</h4>
+                                                <div class="home-products-item__voucher">
+                                                    <img src="./img/voucher/voucher_5k.PNG" alt="" class="home-products-item__voucher-img">
+                                                </div>
+                                                <div class="home-products-item__price">
+                                                    <span class="VND">₫</span>
+                                                    <span class="item-price">12.000</span>
+                                                    <span class="item-sale-quantity">Đã bán 68</span>
+                                                </div>
+                                            </div>
+                                            <div class="home-products-item__favourite">
+                                                <span>Yêu thích</span>
+                                            </div>
+                                            <div class="home-products-item__discount">
+                                                <span class="home-products-item__discount-percent">34%</span>
+                                                <span class="home-products-item__discount-desc">GIẢM</span>
+                                            </div>
+                                            <div class="home-products-item__shopee-tags">
+                                                <img src="./img/shopee_tags_under_img/shopee_tags.png" alt="" class="shopee-tags_img grid__full-width">
+                                            </div>
+                                            <a href="" class="home-products-item__hover-footer">
+                                                <div class="home-products-item__hover-footer-box">
+                                                    Tìm sản phẩm tương tự
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__col-2 m-3 c-6">
+                                    <a href="" class="home-products-item__link">
+                                        <div class="home-products-item hover-options-animation">
+                                            <div class="home-products-item__img" style="background-image: url(https://cf.shopee.vn/file/1ed3a7f56da798f0a811ef022981c00e_tn)"></div>
+                                            <div class="home-products-item__content">
+                                                <h4 class="home-products-item__name">[Mã 258FASHIONSALE giảm 100% đơn 150K] Dép bánh mì độn đế nam nữ siêu nhẹ siêu êm quai hình Meckey thời thượng</h4>
+                                                <div class="home-products-item__voucher">
+                                                    <img src="./img/voucher/voucher_5k.PNG" alt="" class="home-products-item__voucher-img">
+                                                </div>
+                                                <div class="home-products-item__price">
+                                                    <span class="VND">₫</span>
+                                                    <span class="item-price">12.000</span>
+                                                    <span class="item-sale-quantity">Đã bán 68</span>
+                                                </div>
+                                            </div>
+                                            <div class="home-products-item__favourite">
+                                                <span>Yêu thích</span>
+                                            </div>
+                                            <div class="home-products-item__discount">
+                                                <span class="home-products-item__discount-percent">34%</span>
+                                                <span class="home-products-item__discount-desc">GIẢM</span>
+                                            </div>
+                                            <div class="home-products-item__shopee-tags">
+                                                <img src="./img/shopee_tags_under_img/shopee_tags.png" alt="" class="shopee-tags_img grid__full-width">
+                                            </div>
+                                            <a href="" class="home-products-item__hover-footer">
+                                                <div class="home-products-item__hover-footer-box">
+                                                    Tìm sản phẩm tương tự
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__col-2 m-3 c-6">
+                                    <a href="" class="home-products-item__link">
+                                        <div class="home-products-item hover-options-animation">
+                                            <div class="home-products-item__img" style="background-image: url(https://cf.shopee.vn/file/1ed3a7f56da798f0a811ef022981c00e_tn)"></div>
+                                            <div class="home-products-item__content">
+                                                <h4 class="home-products-item__name">[Mã 258FASHIONSALE giảm 100% đơn 150K] Dép bánh mì độn đế nam nữ siêu nhẹ siêu êm quai hình Meckey thời thượng</h4>
+                                                <div class="home-products-item__voucher">
+                                                    <img src="./img/voucher/voucher_5k.PNG" alt="" class="home-products-item__voucher-img">
+                                                </div>
+                                                <div class="home-products-item__price">
+                                                    <span class="VND">₫</span>
+                                                    <span class="item-price">12.000</span>
+                                                    <span class="item-sale-quantity">Đã bán 68</span>
+                                                </div>
+                                            </div>
+                                            <div class="home-products-item__favourite">
+                                                <span>Yêu thích</span>
+                                            </div>
+                                            <div class="home-products-item__discount">
+                                                <span class="home-products-item__discount-percent">34%</span>
+                                                <span class="home-products-item__discount-desc">GIẢM</span>
+                                            </div>
+                                            <div class="home-products-item__shopee-tags">
+                                                <img src="./img/shopee_tags_under_img/shopee_tags.png" alt="" class="shopee-tags_img grid__full-width">
+                                            </div>
+                                            <a href="" class="home-products-item__hover-footer">
+                                                <div class="home-products-item__hover-footer-box">
+                                                    Tìm sản phẩm tương tự
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__col-2 m-3 c-6">
+                                    <a href="" class="home-products-item__link">
+                                        <div class="home-products-item hover-options-animation">
+                                            <div class="home-products-item__img" style="background-image: url(https://cf.shopee.vn/file/1ed3a7f56da798f0a811ef022981c00e_tn)"></div>
+                                            <div class="home-products-item__content">
+                                                <h4 class="home-products-item__name">[Mã 258FASHIONSALE giảm 100% đơn 150K] Dép bánh mì độn đế nam nữ siêu nhẹ siêu êm quai hình Meckey thời thượng</h4>
+                                                <div class="home-products-item__voucher">
+                                                    <img src="./img/voucher/voucher_5k.PNG" alt="" class="home-products-item__voucher-img">
+                                                </div>
+                                                <div class="home-products-item__price">
+                                                    <span class="VND">₫</span>
+                                                    <span class="item-price">12.000</span>
+                                                    <span class="item-sale-quantity">Đã bán 68</span>
+                                                </div>
+                                            </div>
+                                            <div class="home-products-item__favourite">
+                                                <span>Yêu thích</span>
+                                            </div>
+                                            <div class="home-products-item__discount">
+                                                <span class="home-products-item__discount-percent">34%</span>
+                                                <span class="home-products-item__discount-desc">GIẢM</span>
+                                            </div>
+                                            <div class="home-products-item__shopee-tags">
+                                                <img src="./img/shopee_tags_under_img/shopee_tags.png" alt="" class="shopee-tags_img grid__full-width">
+                                            </div>
+                                            <a href="" class="home-products-item__hover-footer">
+                                                <div class="home-products-item__hover-footer-box">
+                                                    Tìm sản phẩm tương tự
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__col-2 m-3 c-6">
+                                    <a href="" class="home-products-item__link">
+                                        <div class="home-products-item hover-options-animation">
+                                            <div class="home-products-item__img" style="background-image: url(https://cf.shopee.vn/file/1ed3a7f56da798f0a811ef022981c00e_tn)"></div>
+                                            <div class="home-products-item__content">
+                                                <h4 class="home-products-item__name">[Mã 258FASHIONSALE giảm 100% đơn 150K] Dép bánh mì độn đế nam nữ siêu nhẹ siêu êm quai hình Meckey thời thượng</h4>
+                                                <div class="home-products-item__voucher">
+                                                    <img src="./img/voucher/voucher_5k.PNG" alt="" class="home-products-item__voucher-img">
+                                                </div>
+                                                <div class="home-products-item__price">
+                                                    <span class="VND">₫</span>
+                                                    <span class="item-price">12.000</span>
+                                                    <span class="item-sale-quantity">Đã bán 68</span>
+                                                </div>
+                                            </div>
+                                            <div class="home-products-item__favourite">
+                                                <span>Yêu thích</span>
+                                            </div>
+                                            <div class="home-products-item__discount">
+                                                <span class="home-products-item__discount-percent">34%</span>
+                                                <span class="home-products-item__discount-desc">GIẢM</span>
+                                            </div>
+                                            <div class="home-products-item__shopee-tags">
+                                                <img src="./img/shopee_tags_under_img/shopee_tags.png" alt="" class="shopee-tags_img grid__full-width">
+                                            </div>
+                                            <a href="" class="home-products-item__hover-footer">
+                                                <div class="home-products-item__hover-footer-box">
+                                                    Tìm sản phẩm tương tự
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__col-2 m-3 c-6">
+                                    <a href="" class="home-products-item__link">
+                                        <div class="home-products-item hover-options-animation">
+                                            <div class="home-products-item__img" style="background-image: url(https://cf.shopee.vn/file/1ed3a7f56da798f0a811ef022981c00e_tn)"></div>
+                                            <div class="home-products-item__content">
+                                                <h4 class="home-products-item__name">[Mã 258FASHIONSALE giảm 100% đơn 150K] Dép bánh mì độn đế nam nữ siêu nhẹ siêu êm quai hình Meckey thời thượng</h4>
+                                                <div class="home-products-item__voucher">
+                                                    <img src="./img/voucher/voucher_5k.PNG" alt="" class="home-products-item__voucher-img">
+                                                </div>
+                                                <div class="home-products-item__price">
+                                                    <span class="VND">₫</span>
+                                                    <span class="item-price">12.000</span>
+                                                    <span class="item-sale-quantity">Đã bán 68</span>
+                                                </div>
+                                            </div>
+                                            <div class="home-products-item__favourite">
+                                                <span>Yêu thích</span>
+                                            </div>
+                                            <div class="home-products-item__discount">
+                                                <span class="home-products-item__discount-percent">34%</span>
+                                                <span class="home-products-item__discount-desc">GIẢM</span>
+                                            </div>
+                                            <div class="home-products-item__shopee-tags">
+                                                <img src="./img/shopee_tags_under_img/shopee_tags.png" alt="" class="shopee-tags_img grid__full-width">
+                                            </div>
+                                            <a href="" class="home-products-item__hover-footer">
+                                                <div class="home-products-item__hover-footer-box">
+                                                    Tìm sản phẩm tương tự
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__col-2 m-3 c-6">
+                                    <a href="" class="home-products-item__link">
+                                        <div class="home-products-item hover-options-animation">
+                                            <div class="home-products-item__img" style="background-image: url(https://cf.shopee.vn/file/1ed3a7f56da798f0a811ef022981c00e_tn)"></div>
+                                            <div class="home-products-item__content">
+                                                <h4 class="home-products-item__name">[Mã 258FASHIONSALE giảm 100% đơn 150K] Dép bánh mì độn đế nam nữ siêu nhẹ siêu êm quai hình Meckey thời thượng</h4>
+                                                <div class="home-products-item__voucher">
+                                                    <img src="./img/voucher/voucher_5k.PNG" alt="" class="home-products-item__voucher-img">
+                                                </div>
+                                                <div class="home-products-item__price">
+                                                    <span class="VND">₫</span>
+                                                    <span class="item-price">12.000</span>
+                                                    <span class="item-sale-quantity">Đã bán 68</span>
+                                                </div>
+                                            </div>
+                                            <div class="home-products-item__favourite">
+                                                <span>Yêu thích</span>
+                                            </div>
+                                            <div class="home-products-item__discount">
+                                                <span class="home-products-item__discount-percent">34%</span>
+                                                <span class="home-products-item__discount-desc">GIẢM</span>
+                                            </div>
+                                            <div class="home-products-item__shopee-tags">
+                                                <img src="./img/shopee_tags_under_img/shopee_tags.png" alt="" class="shopee-tags_img grid__full-width">
+                                            </div>
+                                            <a href="" class="home-products-item__hover-footer">
+                                                <div class="home-products-item__hover-footer-box">
+                                                    Tìm sản phẩm tương tự
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__col-2 m-3 c-6">
+                                    <a href="" class="home-products-item__link">
+                                        <div class="home-products-item hover-options-animation">
+                                            <div class="home-products-item__img" style="background-image: url(https://cf.shopee.vn/file/1ed3a7f56da798f0a811ef022981c00e_tn)"></div>
+                                            <div class="home-products-item__content">
+                                                <h4 class="home-products-item__name">[Mã 258FASHIONSALE giảm 100% đơn 150K] Dép bánh mì độn đế nam nữ siêu nhẹ siêu êm quai hình Meckey thời thượng</h4>
+                                                <div class="home-products-item__voucher">
+                                                    <img src="./img/voucher/voucher_5k.PNG" alt="" class="home-products-item__voucher-img">
+                                                </div>
+                                                <div class="home-products-item__price">
+                                                    <span class="VND">₫</span>
+                                                    <span class="item-price">12.000</span>
+                                                    <span class="item-sale-quantity">Đã bán 68</span>
+                                                </div>
+                                            </div>
+                                            <div class="home-products-item__favourite">
+                                                <span>Yêu thích</span>
+                                            </div>
+                                            <div class="home-products-item__discount">
+                                                <span class="home-products-item__discount-percent">34%</span>
+                                                <span class="home-products-item__discount-desc">GIẢM</span>
+                                            </div>
+                                            <div class="home-products-item__shopee-tags">
+                                                <img src="./img/shopee_tags_under_img/shopee_tags.png" alt="" class="shopee-tags_img grid__full-width">
+                                            </div>
+                                            <a href="" class="home-products-item__hover-footer">
+                                                <div class="home-products-item__hover-footer-box">
+                                                    Tìm sản phẩm tương tự
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__col-2 m-3 c-6">
+                                    <a href="" class="home-products-item__link">
+                                        <div class="home-products-item hover-options-animation">
+                                            <div class="home-products-item__img" style="background-image: url(https://cf.shopee.vn/file/1ed3a7f56da798f0a811ef022981c00e_tn)"></div>
+                                            <div class="home-products-item__content">
+                                                <h4 class="home-products-item__name">[Mã 258FASHIONSALE giảm 100% đơn 150K] Dép bánh mì độn đế nam nữ siêu nhẹ siêu êm quai hình Meckey thời thượng</h4>
+                                                <div class="home-products-item__voucher">
+                                                    <img src="./img/voucher/voucher_5k.PNG" alt="" class="home-products-item__voucher-img">
+                                                </div>
+                                                <div class="home-products-item__price">
+                                                    <span class="VND">₫</span>
+                                                    <span class="item-price">12.000</span>
+                                                    <span class="item-sale-quantity">Đã bán 68</span>
+                                                </div>
+                                            </div>
+                                            <div class="home-products-item__favourite">
+                                                <span>Yêu thích</span>
+                                            </div>
+                                            <div class="home-products-item__discount">
+                                                <span class="home-products-item__discount-percent">34%</span>
+                                                <span class="home-products-item__discount-desc">GIẢM</span>
+                                            </div>
+                                            <div class="home-products-item__shopee-tags">
+                                                <img src="./img/shopee_tags_under_img/shopee_tags.png" alt="" class="shopee-tags_img grid__full-width">
+                                            </div>
+                                            <a href="" class="home-products-item__hover-footer">
+                                                <div class="home-products-item__hover-footer-box">
+                                                    Tìm sản phẩm tương tự
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__col-2 m-3 c-6">
+                                    <a href="" class="home-products-item__link">
+                                        <div class="home-products-item hover-options-animation">
+                                            <div class="home-products-item__img" style="background-image: url(https://cf.shopee.vn/file/1ed3a7f56da798f0a811ef022981c00e_tn)"></div>
+                                            <div class="home-products-item__content">
+                                                <h4 class="home-products-item__name">[Mã 258FASHIONSALE giảm 100% đơn 150K] Dép bánh mì độn đế nam nữ siêu nhẹ siêu êm quai hình Meckey thời thượng</h4>
+                                                <div class="home-products-item__voucher">
+                                                    <img src="./img/voucher/voucher_5k.PNG" alt="" class="home-products-item__voucher-img">
+                                                </div>
+                                                <div class="home-products-item__price">
+                                                    <span class="VND">₫</span>
+                                                    <span class="item-price">12.000</span>
+                                                    <span class="item-sale-quantity">Đã bán 68</span>
+                                                </div>
+                                            </div>
+                                            <div class="home-products-item__favourite">
+                                                <span>Yêu thích</span>
+                                            </div>
+                                            <div class="home-products-item__discount">
+                                                <span class="home-products-item__discount-percent">34%</span>
+                                                <span class="home-products-item__discount-desc">GIẢM</span>
+                                            </div>
+                                            <div class="home-products-item__shopee-tags">
+                                                <img src="./img/shopee_tags_under_img/shopee_tags.png" alt="" class="shopee-tags_img grid__full-width">
+                                            </div>
+                                            <a href="" class="home-products-item__hover-footer">
+                                                <div class="home-products-item__hover-footer-box">
+                                                    Tìm sản phẩm tương tự
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__col-2 m-3 c-6">
+                                    <a href="" class="home-products-item__link">
+                                        <div class="home-products-item hover-options-animation">
+                                            <div class="home-products-item__img" style="background-image: url(https://cf.shopee.vn/file/1ed3a7f56da798f0a811ef022981c00e_tn)"></div>
+                                            <div class="home-products-item__content">
+                                                <h4 class="home-products-item__name">[Mã 258FASHIONSALE giảm 100% đơn 150K] Dép bánh mì độn đế nam nữ siêu nhẹ siêu êm quai hình Meckey thời thượng</h4>
+                                                <div class="home-products-item__voucher">
+                                                    <img src="./img/voucher/voucher_5k.PNG" alt="" class="home-products-item__voucher-img">
+                                                </div>
+                                                <div class="home-products-item__price">
+                                                    <span class="VND">₫</span>
+                                                    <span class="item-price">12.000</span>
+                                                    <span class="item-sale-quantity">Đã bán 68</span>
+                                                </div>
+                                            </div>
+                                            <div class="home-products-item__favourite">
+                                                <span>Yêu thích</span>
+                                            </div>
+                                            <div class="home-products-item__discount">
+                                                <span class="home-products-item__discount-percent">34%</span>
+                                                <span class="home-products-item__discount-desc">GIẢM</span>
+                                            </div>
+                                            <div class="home-products-item__shopee-tags">
+                                                <img src="./img/shopee_tags_under_img/shopee_tags.png" alt="" class="shopee-tags_img grid__full-width">
+                                            </div>
+                                            <a href="" class="home-products-item__hover-footer">
+                                                <div class="home-products-item__hover-footer-box">
+                                                    Tìm sản phẩm tương tự
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </a>
+                                </div>
+                                
+                            </div>
+                            <a href="" class="home-more-products__link">
+                                <div class="home-more-products__btn">
+                                    Xem Thêm
+                                </div>
+                            </a>
+                        </div> <!-- end home products -->
+
+                    </div>
+                </div>
+
+            </div>
+            <!-- End container -->
+
+
+        </div> <!-- end home body -->
+        
+        <!-- home footer -->
+        <div class="home-footer">
+            <div class="grid grid_tablet">
+                <div class="home-footer-section hide-on-mobile">
+                    <h1 class="home-footer-section__heading">
+                        SHOPEE - GÌ CŨNG CÓ, MUA HẾT Ở SHOPEE
+                    </h1>
+                    <p class="home-footer-section__content">
+                        Shopee - ứng dụng mua sắm trực tuyến thú vị, tin cậy, an toàn và miễn phí! Shopee là nền tảng giao dịch trực tuyến hàng đầu ở Đông Nam Á, có trụ sở chính ở Singapore, đã có mặt ở khắp các khu vực
+                        <span> Singapore, Malaysia, Indonesia, Thái Lan, Philippines, Đài Loan, Brazil, México, Colombia, Chile, Poland, Spain, Argentina. </span>
+                        Với sự đảm bảo của Shopee, bạn sẽ mua hàng trực tuyến an tâm và nhanh chóng hơn bao giờ hết!
+                    </p>
+                    <br>
+                    <h2 class="home-footer-section__heading">
+                        MUA SẮM VÀ BÁN HÀNG ONLINE ĐƠN GIẢN, NHANH CHÓNG VÀ AN TOÀN
+                    </h2>
+                    <p class="home-footer-section__content">
+                        Nếu bạn đang tìm kiếm một trang web để mua và bán hàng trực tuyến thì Shopee.vn là một sự lựa chọn tuyệt vời dành cho bạn. Bản chất của Shopee là một social E-commerce platform - nền tảng trang web thương mại điện tử tích hợp mạng xã hội. Điều này cho phép người mua và người bán hàng dễ dàng tương tác, trao đổi thông tin về sản phẩm và chương trình khuyến mãi của shop. Nhờ nền tảng đó, việc mua bán trên Shopee trở nên nhanh chóng và đơn giản hơn. Bạn có thể trò chuyện trực tiếp với nhà bán hàng để hỏi trực tiếp về mặt hàng cần mua. Còn nếu bạn muốn tìm mua những dòng sản phẩm chính hãng, uy tín,
+                        <a href="" class="footer-section__link"> Shopee Mall </a>
+                        chính là sự lựa chọn lí tưởng dành cho bạn. Để bạn có thể dễ dàng khi tìm hiểu và sử dụng sản phẩm,
+                        <a href="" class="footer-section__link"> Shopee Blog- trang blog thông tin chính thức của Shopee </a>
+                        - sẽ giúp bạn có thể tìm được cho mình các kiến thức về xu hướng thời trang, review công nghệ, mẹo làm đẹp, tin tức tiêu dùng và deal giá tốt bất ngờ.                  
+                    </p>
+                    <button class="home-footer-section__btn">
+                        <span>Xem Thêm</span>
+                        <i class="home-footer-section__btn-icon ti-angle-right"></i>
+                    </button>
+                </div> <!-- end home footer section -->
+
+                <div class="home-footer-categoty hide-on-mobile">
+                    <h3 class="home-footer-categoty__heading">Danh Mục</h3>
+                    <div class="grid__row-m5 home-footer-categoty__box-main">
+                        <div class="grid__col-2-4">
+                            <div class="home-footer-categoty__box">
+                                <a href="" class="home-footer-categoty__main-link">THỜI TRANG NAM</a>
+                                <div class="home-footer-categoty__link-list">
+                                    <a href="" class="home-footer-categoty__sub-link">Áo Khoác</a>
+                                    <span>|</span>
+                                    <a href="" class="home-footer-categoty__sub-link">Áo Vest và Blazer</a>
+                                    <span>|</span>
+                                    <a href="" class="home-footer-categoty__sub-link">Quần Jeans</a>
+                                    <span>|</span>
+                                    <a href="" class="home-footer-categoty__sub-link">Áo Ba Lỗ</a>
+                                    <span>|</span>
+                                    <a href="" class="home-footer-categoty__sub-link">Đồ lót</a>
+                                    <span>|</span>
+                                </div>
+                            </div>
+                            <div class="home-footer-categoty__box">
+                                <a href="" class="home-footer-categoty__main-link">THỜI TRANG NAM</a>
+                                <div class="home-footer-categoty__link-list">
+                                    <a href="" class="home-footer-categoty__sub-link">Áo Khoác</a>
+                                    <span>|</span>
+                                    <a href="" class="home-footer-categoty__sub-link">Áo Vest và Blazer</a>
+                                    <span>|</span>
+                                    <a href="" class="home-footer-categoty__sub-link">Quần Jeans</a>
+                                    <span>|</span>
+                                    <a href="" class="home-footer-categoty__sub-link">Áo Ba Lỗ</a>
+                                    <span>|</span>
+                                    <a href="" class="home-footer-categoty__sub-link">Đồ lót</a>
+                                    <span>|</span>
+                                </div>
+                            </div>
+                            <div class="home-footer-categoty__box">
+                                <a href="" class="home-footer-categoty__main-link">THỜI TRANG NAM</a>
+                                <div class="home-footer-categoty__link-list">
+                                    <a href="" class="home-footer-categoty__sub-link">Áo Khoác</a>
+                                    <span>|</span>
+                                    <a href="" class="home-footer-categoty__sub-link">Áo Vest và Blazer</a>
+                                    <span>|</span>
+                                    <a href="" class="home-footer-categoty__sub-link">Quần Jeans</a>
+                                    <span>|</span>
+                                    <a href="" class="home-footer-categoty__sub-link">Áo Ba Lỗ</a>
+                                    <span>|</span>
+                                    <a href="" class="home-footer-categoty__sub-link">Đồ lót</a>
+                                    <span>|</span>
+                                </div>
+                            </div>
+                            <div class="home-footer-categoty__box">
+                                <a href="" class="home-footer-categoty__main-link">THỜI TRANG NAM</a>
+                                <div class="home-footer-categoty__link-list">
+                                    <a href="" class="home-footer-categoty__sub-link">Áo Khoác</a>
+                                    <span>|</span>
+                                    <a href="" class="home-footer-categoty__sub-link">Áo Vest và Blazer</a>
+                                    <span>|</span>
+                                    <a href="" class="home-footer-categoty__sub-link">Quần Jeans</a>
+                                    <span>|</span>
+                                    <a href="" class="home-footer-categoty__sub-link">Áo Ba Lỗ</a>
+                                    <span>|</span>
+                                    <a href="" class="home-footer-categoty__sub-link">Đồ lót</a>
+                                    <span>|</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid__col-2-4">
+                            <div class="home-footer-categoty__box">
+                                <a href="" class="home-footer-categoty__main-link">THỜI TRANG NAM</a>
+                                <div class="home-footer-categoty__link-list">
+                                    <a href="" class="home-footer-categoty__sub-link">Áo Khoác</a>
+                                    <span>|</span>
+                                    <a href="" class="home-footer-categoty__sub-link">Áo Vest và Blazer</a>
+                                    <span>|</span>
+                                    <a href="" class="home-footer-categoty__sub-link">Quần Jeans</a>
+                                    <span>|</span>
+                                    <a href="" class="home-footer-categoty__sub-link">Áo Ba Lỗ</a>
+                                    <span>|</span>
+                                    <a href="" class="home-footer-categoty__sub-link">Đồ lót</a>
+                                    <span>|</span>
+                                </div>
+                            </div>
+                            <div class="home-footer-categoty__box">
+                                <a href="" class="home-footer-categoty__main-link">THỜI TRANG NAM</a>
+                                <div class="home-footer-categoty__link-list">
+                                    <a href="" class="home-footer-categoty__sub-link">Áo Khoác</a>
+                                    <span>|</span>
+                                    <a href="" class="home-footer-categoty__sub-link">Áo Vest và Blazer</a>
+                                    <span>|</span>
+                                    <a href="" class="home-footer-categoty__sub-link">Quần Jeans</a>
+                                    <span>|</span>
+                                    <a href="" class="home-footer-categoty__sub-link">Áo Ba Lỗ</a>
+                                    <span>|</span>
+                                    <a href="" class="home-footer-categoty__sub-link">Đồ lót</a>
+                                    <span>|</span>
+                                </div>
+                            </div>
+                            <div class="home-footer-categoty__box">
+                                <a href="" class="home-footer-categoty__main-link">THỜI TRANG NAM</a>
+                                <div class="home-footer-categoty__link-list">
+                                    <a href="" class="home-footer-categoty__sub-link">Áo Khoác</a>
+                                    <span>|</span>
+                                    <a href="" class="home-footer-categoty__sub-link">Áo Vest và Blazer</a>
+                                    <span>|</span>
+                                    <a href="" class="home-footer-categoty__sub-link">Quần Jeans</a>
+                                    <span>|</span>
+                                    <a href="" class="home-footer-categoty__sub-link">Áo Ba Lỗ</a>
+                                    <span>|</span>
+                                    <a href="" class="home-footer-categoty__sub-link">Đồ lót</a>
+                                    <span>|</span>
+                                </div>
+                            </div>
+                            <div class="home-footer-categoty__box">
+                                <a href="" class="home-footer-categoty__main-link">THỜI TRANG NAM</a>
+                                <div class="home-footer-categoty__link-list">
+                                    <a href="" class="home-footer-categoty__sub-link">Áo Khoác</a>
+                                    <span>|</span>
+                                    <a href="" class="home-footer-categoty__sub-link">Áo Vest và Blazer</a>
+                                    <span>|</span>
+                                    <a href="" class="home-footer-categoty__sub-link">Quần Jeans</a>
+                                    <span>|</span>
+                                    <a href="" class="home-footer-categoty__sub-link">Áo Ba Lỗ</a>
+                                    <span>|</span>
+                                    <a href="" class="home-footer-categoty__sub-link">Đồ lót</a>
+                                    <span>|</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid__col-2-4">
+                            <div class="home-footer-categoty__box">
+                                <a href="" class="home-footer-categoty__main-link">THỜI TRANG NAM</a>
+                                <div class="home-footer-categoty__link-list">
+                                    <a href="" class="home-footer-categoty__sub-link">Áo Khoác</a>
+                                    <span>|</span>
+                                    <a href="" class="home-footer-categoty__sub-link">Áo Vest và Blazer</a>
+                                    <span>|</span>
+                                    <a href="" class="home-footer-categoty__sub-link">Quần Jeans</a>
+                                    <span>|</span>
+                                    <a href="" class="home-footer-categoty__sub-link">Áo Ba Lỗ</a>
+                                    <span>|</span>
+                                    <a href="" class="home-footer-categoty__sub-link">Đồ lót</a>
+                                    <span>|</span>
+                                </div>
+                            </div>
+                            <div class="home-footer-categoty__box">
+                                <a href="" class="home-footer-categoty__main-link">THỜI TRANG NAM</a>
+                                <div class="home-footer-categoty__link-list">
+                                    <a href="" class="home-footer-categoty__sub-link">Áo Khoác</a>
+                                    <span>|</span>
+                                    <a href="" class="home-footer-categoty__sub-link">Áo Vest và Blazer</a>
+                                    <span>|</span>
+                                    <a href="" class="home-footer-categoty__sub-link">Quần Jeans</a>
+                                    <span>|</span>
+                                    <a href="" class="home-footer-categoty__sub-link">Áo Ba Lỗ</a>
+                                    <span>|</span>
+                                    <a href="" class="home-footer-categoty__sub-link">Đồ lót</a>
+                                    <span>|</span>
+                                </div>
+                            </div>
+                            <div class="home-footer-categoty__box">
+                                <a href="" class="home-footer-categoty__main-link">THỜI TRANG NAM</a>
+                                <div class="home-footer-categoty__link-list">
+                                    <a href="" class="home-footer-categoty__sub-link">Áo Khoác</a>
+                                    <span>|</span>
+                                    <a href="" class="home-footer-categoty__sub-link">Áo Vest và Blazer</a>
+                                    <span>|</span>
+                                    <a href="" class="home-footer-categoty__sub-link">Quần Jeans</a>
+                                    <span>|</span>
+                                    <a href="" class="home-footer-categoty__sub-link">Áo Ba Lỗ</a>
+                                    <span>|</span>
+                                    <a href="" class="home-footer-categoty__sub-link">Đồ lót</a>
+                                    <span>|</span>
+                                </div>
+                            </div>
+                            <div class="home-footer-categoty__box">
+                                <a href="" class="home-footer-categoty__main-link">THỜI TRANG NAM</a>
+                                <div class="home-footer-categoty__link-list">
+                                    <a href="" class="home-footer-categoty__sub-link">Áo Khoác</a>
+                                    <span>|</span>
+                                    <a href="" class="home-footer-categoty__sub-link">Áo Vest và Blazer</a>
+                                    <span>|</span>
+                                    <a href="" class="home-footer-categoty__sub-link">Quần Jeans</a>
+                                    <span>|</span>
+                                    <a href="" class="home-footer-categoty__sub-link">Áo Ba Lỗ</a>
+                                    <span>|</span>
+                                    <a href="" class="home-footer-categoty__sub-link">Đồ lót</a>
+                                    <span>|</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid__col-2-4">
+                            <div class="home-footer-categoty__box">
+                                <a href="" class="home-footer-categoty__main-link">THỜI TRANG NAM</a>
+                                <div class="home-footer-categoty__link-list">
+                                    <a href="" class="home-footer-categoty__sub-link">Áo Khoác</a>
+                                    <span>|</span>
+                                    <a href="" class="home-footer-categoty__sub-link">Áo Vest và Blazer</a>
+                                    <span>|</span>
+                                    <a href="" class="home-footer-categoty__sub-link">Quần Jeans</a>
+                                    <span>|</span>
+                                    <a href="" class="home-footer-categoty__sub-link">Áo Ba Lỗ</a>
+                                    <span>|</span>
+                                    <a href="" class="home-footer-categoty__sub-link">Đồ lót</a>
+                                    <span>|</span>
+                                </div>
+                            </div>
+                            <div class="home-footer-categoty__box">
+                                <a href="" class="home-footer-categoty__main-link">THỜI TRANG NAM</a>
+                                <div class="home-footer-categoty__link-list">
+                                    <a href="" class="home-footer-categoty__sub-link">Áo Khoác</a>
+                                    <span>|</span>
+                                    <a href="" class="home-footer-categoty__sub-link">Áo Vest và Blazer</a>
+                                    <span>|</span>
+                                    <a href="" class="home-footer-categoty__sub-link">Quần Jeans</a>
+                                    <span>|</span>
+                                    <a href="" class="home-footer-categoty__sub-link">Áo Ba Lỗ</a>
+                                    <span>|</span>
+                                    <a href="" class="home-footer-categoty__sub-link">Đồ lót</a>
+                                    <span>|</span>
+                                </div>
+                            </div>
+                            <div class="home-footer-categoty__box">
+                                <a href="" class="home-footer-categoty__main-link">THỜI TRANG NAM</a>
+                                <div class="home-footer-categoty__link-list">
+                                    <a href="" class="home-footer-categoty__sub-link">Áo Khoác</a>
+                                    <span>|</span>
+                                    <a href="" class="home-footer-categoty__sub-link">Áo Vest và Blazer</a>
+                                    <span>|</span>
+                                    <a href="" class="home-footer-categoty__sub-link">Quần Jeans</a>
+                                    <span>|</span>
+                                    <a href="" class="home-footer-categoty__sub-link">Áo Ba Lỗ</a>
+                                    <span>|</span>
+                                    <a href="" class="home-footer-categoty__sub-link">Đồ lót</a>
+                                    <span>|</span>
+                                </div>
+                            </div>
+                            <div class="home-footer-categoty__box">
+                                <a href="" class="home-footer-categoty__main-link">THỜI TRANG NAM</a>
+                                <div class="home-footer-categoty__link-list">
+                                    <a href="" class="home-footer-categoty__sub-link">Áo Khoác</a>
+                                    <span>|</span>
+                                    <a href="" class="home-footer-categoty__sub-link">Áo Vest và Blazer</a>
+                                    <span>|</span>
+                                    <a href="" class="home-footer-categoty__sub-link">Quần Jeans</a>
+                                    <span>|</span>
+                                    <a href="" class="home-footer-categoty__sub-link">Áo Ba Lỗ</a>
+                                    <span>|</span>
+                                    <a href="" class="home-footer-categoty__sub-link">Đồ lót</a>
+                                    <span>|</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid__col-2-4">
+                            <div class="home-footer-categoty__box">
+                                <a href="" class="home-footer-categoty__main-link">THỜI TRANG NAM</a>
+                                <div class="home-footer-categoty__link-list">
+                                    <a href="" class="home-footer-categoty__sub-link">Áo Khoác</a>
+                                    <span>|</span>
+                                    <a href="" class="home-footer-categoty__sub-link">Áo Vest và Blazer</a>
+                                    <span>|</span>
+                                    <a href="" class="home-footer-categoty__sub-link">Quần Jeans</a>
+                                    <span>|</span>
+                                    <a href="" class="home-footer-categoty__sub-link">Áo Ba Lỗ</a>
+                                    <span>|</span>
+                                    <a href="" class="home-footer-categoty__sub-link">Đồ lót</a>
+                                    <span>|</span>
+                                </div>
+                            </div>
+                            <div class="home-footer-categoty__box">
+                                <a href="" class="home-footer-categoty__main-link">THỜI TRANG NAM</a>
+                                <div class="home-footer-categoty__link-list">
+                                    <a href="" class="home-footer-categoty__sub-link">Áo Khoác</a>
+                                    <span>|</span>
+                                    <a href="" class="home-footer-categoty__sub-link">Áo Vest và Blazer</a>
+                                    <span>|</span>
+                                    <a href="" class="home-footer-categoty__sub-link">Quần Jeans</a>
+                                    <span>|</span>
+                                    <a href="" class="home-footer-categoty__sub-link">Áo Ba Lỗ</a>
+                                    <span>|</span>
+                                    <a href="" class="home-footer-categoty__sub-link">Đồ lót</a>
+                                    <span>|</span>
+                                </div>
+                            </div>
+                            <div class="home-footer-categoty__box">
+                                <a href="" class="home-footer-categoty__main-link">THỜI TRANG NAM</a>
+                                <div class="home-footer-categoty__link-list">
+                                    <a href="" class="home-footer-categoty__sub-link">Áo Khoác</a>
+                                    <span>|</span>
+                                    <a href="" class="home-footer-categoty__sub-link">Áo Vest và Blazer</a>
+                                    <span>|</span>
+                                    <a href="" class="home-footer-categoty__sub-link">Quần Jeans</a>
+                                    <span>|</span>
+                                    <a href="" class="home-footer-categoty__sub-link">Áo Ba Lỗ</a>
+                                    <span>|</span>
+                                    <a href="" class="home-footer-categoty__sub-link">Đồ lót</a>
+                                    <span>|</span>
+                                </div>
+                            </div>
+                            <div class="home-footer-categoty__box">
+                                <a href="" class="home-footer-categoty__main-link">THỜI TRANG NAM</a>
+                                <div class="home-footer-categoty__link-list">
+                                    <a href="" class="home-footer-categoty__sub-link">Áo Khoác</a>
+                                    <span>|</span>
+                                    <a href="" class="home-footer-categoty__sub-link">Áo Vest và Blazer</a>
+                                    <span>|</span>
+                                    <a href="" class="home-footer-categoty__sub-link">Quần Jeans</a>
+                                    <span>|</span>
+                                    <a href="" class="home-footer-categoty__sub-link">Áo Ba Lỗ</a>
+                                    <span>|</span>
+                                    <a href="" class="home-footer-categoty__sub-link">Đồ lót</a>
+                                    <span>|</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="grid__row-m0">
+                        <div class="grid__col-2-4">
+                            <div class="home-footer__shopee-info">
+                                <h2 class="home-footer__shopee-info-heading">CHĂM SÓC KHÁCH HÀNG</h2>
+                                <ul class="shopee-info__list">
+                                    <li class="shopee-info__item">
+                                        <a href="" class="shopee-info__link">Trung Tâm Trợ giúp</a>
+                                    </li>
+                                    <li class="shopee-info__item">
+                                        <a href="" class="shopee-info__link">Shopee Blog</a>
+                                    </li>
+                                    <li class="shopee-info__item">
+                                        <a href="" class="shopee-info__link">Shopee Mall</a>
+                                    </li>
+                                    <li class="shopee-info__item">
+                                        <a href="" class="shopee-info__link">Hướng Dẫn Mua Hàng</a>
+                                    </li>
+                                    <li class="shopee-info__item">
+                                        <a href="" class="shopee-info__link">Hướng Dẫn Bán Hàng</a>
+                                    </li>
+                                    <li class="shopee-info__item">
+                                        <a href="" class="shopee-info__link">Thanh Toán</a>
+                                    </li>
+                                    <li class="shopee-info__item">
+                                        <a href="" class="shopee-info__link">Shopee Xu</a>
+                                    </li>
+                                    <li class="shopee-info__item">
+                                        <a href="" class="shopee-info__link">Vận Chuyển</a>
+                                    </li>
+                                    <li class="shopee-info__item">
+                                        <a href="" class="shopee-info__link">Trả Hàng & Hoàn Tiền</a>
+                                    </li>
+                                    <li class="shopee-info__item">
+                                        <a href="" class="shopee-info__link">Chăm Sóc Khách Hàng</a>
+                                    </li>
+                                    <li class="shopee-info__item">
+                                        <a href="" class="shopee-info__link">Chính Sách Bảo Hành</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="grid__col-2-4">
+                            <div class="home-footer__shopee-info">
+                                <h2 class="home-footer__shopee-info-heading">VỀ SHOPEE</h2>
+                                <ul class="shopee-info__list">
+                                    <li class="shopee-info__item">
+                                        <a href="" class="shopee-info__link">Giới Thiệu Về Shopee Việt Nam</a>
+                                    </li>
+                                    <li class="shopee-info__item">
+                                        <a href="" class="shopee-info__link">Tuyển Dụng</a>
+                                    </li>
+                                    <li class="shopee-info__item">
+                                        <a href="" class="shopee-info__link">Điều Khoản Shopee</a>
+                                    </li>
+                                    <li class="shopee-info__item">
+                                        <a href="" class="shopee-info__link">Chính Sách Bảo Mật</a>
+                                    </li>
+                                    <li class="shopee-info__item">
+                                        <a href="" class="shopee-info__link">Chính Hãng</a>
+                                    </li>
+                                    <li class="shopee-info__item">
+                                        <a href="" class="shopee-info__link">Kênh Người Bán</a>
+                                    </li>
+                                    <li class="shopee-info__item">
+                                        <a href="" class="shopee-info__link">Flash Sales</a>
+                                    </li>
+                                    <li class="shopee-info__item">
+                                        <a href="" class="shopee-info__link">Chương Trình Tiếp Thị Liên Kết Shopee</a>
+                                    </li>
+                                    <li class="shopee-info__item">
+                                        <a href="" class="shopee-info__link">Liên Hệ Với Truyền Thông</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="grid__col-2-4">
+                            <div class="home-footer__shopee-info">
+                                <h2 class="home-footer__shopee-info-heading">THANH TOÁN</h2>
+                                <img src="./img/phuong_thuc_thanh_toan/phuong_thuc_thanh_ton.PNG" alt="" class="shopee-info__img">
+                                <h2 class="home-footer__shopee-info-heading">ĐƠN VỊ VẬN CHUYỂN</h2>
+                                <img src="./img/don_vi_van_chuyen/don_vi_van_chuyen.PNG" alt="" class="shopee-info__img">
+                            </div>
+                        </div>
+                        <div class="grid__col-2-4">
+                            <div class="home-footer__shopee-info">
+                                <h2 class="home-footer__shopee-info-heading">THEO DÕI CHÚNG TÔI TRÊN</h2>
+                                <ul class="shopee-info__list">
+                                    <li class="shopee-info__item">
+                                        <a href="" class="shopee-info__link">
+                                            <i class="home-footer-brand-icon fa-brands fa-facebook"></i>
+                                            Facebook
+                                        </a>
+                                    </li>
+                                    <li class="shopee-info__item">
+                                        <a href="" class="shopee-info__link">
+                                            <i class="home-footer-brand-icon fa-brands fa-square-instagram"></i>
+                                            Instagram
+                                        </a>
+                                    </li>
+                                    <li class="shopee-info__item">
+                                        <a href="" class="shopee-info__link">
+                                            <i class="fa-brands fa-linkedin"></i>
+                                            LinkedIn
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="grid__col-2-4">
+                            <div class="home-footer__shopee-info">
+                                <h2 class="home-footer__shopee-info-heading">TẢI ỨNG DỤNG SHOPEE NGAY THÔI</h2>
+                                <img src="./img/footer_QR/footer_QR.PNG" alt="" class="shopee-info__img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="home-footer__law-and-area hide-on-mobile">
+                    <div class="home-footer__law">
+                        © 2022 Shopee. Tất cả các quyền được bảo lưu.
+                    </div>
+                    <div class="home-footer__area">
+                        <span>Quốc gia & Khu vực:</span>
+                        <a href="" class="home-footer__country">Singapore</a>
+                        <a href="" class="home-footer__country">Indonesia</a>
+                        <a href="" class="home-footer__country">Đài Loan</a>
+                        <a href="" class="home-footer__country">Thái Lan</a>
+                        <a href="" class="home-footer__country">Malaysia</a>
+                        <a href="" class="home-footer__country">Việt Nam</a>
+                        <a href="" class="home-footer__country">Philippines</a>
+                        <a href="" class="home-footer__country">Brazil</a>
+                        <a href="" class="home-footer__country">México</a>
+                        <a href="" class="home-footer__country">Colombia</a>
+                        <a href="" class="home-footer__country">Chile</a>
+                        <a href="" class="home-footer__country">Poland</a>
+                        <a href="" class="home-footer__country">Argentina</a>
+                    </div>
+                </div>
+                
+                <div class="home-footer__shopee-company">
+                    <div class="home-footer__policy-list">
+                        <a href="" class="home-footer__policy c-6">CHÍNH SÁCH BẢO MẬT</a>
+                        <a href="" class="home-footer__policy c-6">QUY CHẾ HOẠT ĐỘNG</a>
+                        <a href="" class="home-footer__policy c-6">CHÍNH SÁCH VẬN CHUYỂN</a>
+                        <a href="" class="home-footer__policy c-6">CHÍNH SÁCH TRẢ HÀNG VÀ HOÀN TIỀN</a>
+                    </div>
+                    <div class="home-footer__certification">
+                        <div class="home-footer__certification-box">
+                            <a href="" class="home-footer__certification-link">
+                                <img src="./img/footer-certification/certification1.PNG" alt="" class="home-footer__certification-img">
+                            </a>
+                            <a href="" class="home-footer__certification-link">
+                                <img src="./img/footer-certification/certification2.PNG" alt="" class="home-footer__certification-img">
+                            </a>
+                            <a href="" class="home-footer__certification-link">
+                                <img src="./img/footer-certification/certification3.PNG" alt="" class="home-footer__certification-img">
+                            </a>
+
+                        </div>
+                        <span>Công ty TNHH Shopee</span>
+                    </div>
+                    <div class="home-footer__company-info">
+                        Địa chỉ: Tầng 4-5-6, Tòa nhà Capital Place, số 29 đường Liễu Giai, Phường Ngọc Khánh, Quận Ba Đình, Thành phố Hà Nội, Việt Nam. Tổng đài hỗ trợ: 19001221 - Email: cskh@hotro.shopee.vn
+                    </div>
+                    <div class="home-footer__company-info">
+                        Chịu Trách Nhiệm Quản Lý Nội Dung: Nguyễn Đức Trí - Điện thoại liên hệ: 024 73081221 (ext 4678)
+                    </div>
+                    <div class="home-footer__company-info">
+                        Mã số doanh nghiệp: 0106773786 do Sở Kế hoạch & Đầu tư TP Hà Nội cấp lần đầu ngày 10/02/2015
+                    </div>
+                    <div class="home-footer__company-info">
+                        © 2015 - Bản quyền thuộc về Công ty TNHH Shopee
+                    </div>
+                </div>
+
+            </div> <!-- grid -->
+        </div>
+
+
+
+    </div>
+    
+    <script> // next slide by click
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let slides2 = document.getElementsByClassName("mySlides-2");
+
+            let dots = document.getElementsByClassName("dot");
+            let dots2 = document.getElementsByClassName("dot2");
+
+            if (n > slides.length) {slideIndex = 1}    
+            if (n < 1) {slideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+                slides2[i].style.display = "none";  
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";
+            slides2[slideIndex-1].style.display = "block";  
+
+            dots[slideIndex-1].className += " active";
+            dots2[slideIndex-1].className += " active";
+        }
+    </script>
+
+    <script> //show slides auto
+        let slideIndex = 0;
+        showSlides();
+        
+        function showSlides() {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let slides2 = document.getElementsByClassName("mySlides-2");
+
+          let dots = document.getElementsByClassName("dot");
+          let dots2 = document.getElementsByClassName("dot2");
+
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+            slides2[i].style.display = "none";  
+          }
+          
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}  
+          
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";
+          slides2[slideIndex-1].style.display = "block";  
+
+          dots[slideIndex-1].className += " active";
+          dots2[slideIndex-1].className += " active";
+          setTimeout(showSlides, 4000); // Change image every 3 seconds
+        }
+    </script>
+
+
+
+</body>
+</html>

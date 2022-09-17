@@ -1,0 +1,164 @@
+/* mobile and tablet */
+@media (max-width: 1023px) {
+    .hide-on-mobile-tablet {
+        display: none;
+    }
+
+    .shopee-logo {
+        margin: 0;
+    }
+
+    .header {
+        display: flex;
+        align-items: center;
+        height: 80px;
+    }
+
+    .header-func{
+        margin: 0;
+    }
+
+    .header-search {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .trending-search-list {
+        overflow-x: auto;
+    }
+
+    .treding-search-content {
+        padding: 10px 5px 10px 10px;
+    }
+
+}
+
+/* mobile */
+@media (max-width: 739px) {
+    .hide-on-mobile {
+        display: none;
+    }
+
+    .c-6 {
+        width: 50%;
+    }
+
+    .c-12 {
+        width: 100%;
+    }
+
+    .mobile-menu-btn {
+        display: flex;
+    }
+
+    .header-cart {
+        width: 36px;
+    }
+
+    .cart-icon {
+        font-size: 30px;
+    }
+
+    .full-home-banners {
+        padding-top: 16px;
+    }
+
+    .grid__col-8-p-2_5,
+    .home-banner-main {
+        width: 100%;
+        padding: 0;
+        left: 0;
+        right: 0;
+    }
+
+    .home-products-header {
+        width: 100%;
+    }
+
+    .home-products-tabs-header__tab {
+        width: 50%;
+    }
+
+    .home-products-tabs-header__tab span {
+        padding: 0;
+    }
+
+    .tabs-header__img {
+        margin: auto;
+        padding: 0;
+    }
+
+    .first-oder-img,
+    .home-mall-section {
+        margin-top: 8px;
+    }
+
+    .home-more-products__btn {
+        border-color: #ee4d2d;
+        color: #ee4d2d;
+        border-radius: 4px;
+        max-width: 90%;
+    }
+
+    .home-footer__shopee-company {
+        padding: 8px;
+    }
+
+    .home-footer__policy-list {
+        flex-wrap: wrap;
+        margin-bottom: 16px;
+    }
+
+    .home-footer__policy {
+        padding: 0;
+        font-size: 1.2rem;
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    .home-footer__company-info {
+        margin: 0;
+        text-align: center;
+        line-height: 1.8rem;
+    }
+}
+
+/* tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .hide-on-tablet {
+        display: none;
+    }
+
+    .m-3 {
+        width: 25%;
+    }
+
+    .m-4 {
+        width: 33.33333%;
+    }
+
+    .m-6 {
+        width: 50%;
+        flex: 0 0 wrap;
+    }
+
+    .m-12 {
+        width: 100%;
+    }
+
+    .grid_tablet {
+        max-width: calc(100% - 16px);
+        margin: 0 auto;
+    }
+
+    .header-cart {
+        width: 60px;
+    }
+
+    .home-mall-section__item-list {
+        
+    }
+
+
+}
